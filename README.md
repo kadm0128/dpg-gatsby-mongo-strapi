@@ -1,2 +1,2 @@
-# dpg-gatsby-mongo-strapi
-Dynamic page generation using GatsbyJs and Strapi headless cms.
+# gatsby_mongodb_strapi_dpg_app
+Dynamic page generation app using gatsby, strapi and mongoDB.
