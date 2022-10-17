@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "richtexttext",
+  "info": {
+    "name": "richtexttext",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "richText": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "localhost",
+        "port": "27017",
+        "database": "gatsby_mongodb_strapi_dpg_app",
+        "username": "",
+        "password": ""
+      },
+      "options": {
+          "authenticationDatabase": "",
+        "ssl": false,
+        "minimize": true
+      }
+    }
+  }
+}

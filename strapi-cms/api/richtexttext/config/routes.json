@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/richtexttexts",
+      "handler": "Richtexttext.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/richtexttexts/count",
+      "handler": "Richtexttext.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/richtexttexts/:id",
+      "handler": "Richtexttext.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/richtexttexts",
+      "handler": "Richtexttext.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/richtexttexts/:id",
+      "handler": "Richtexttext.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/richtexttexts/:id",
+      "handler": "Richtexttext.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
